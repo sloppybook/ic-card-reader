@@ -1,0 +1,11 @@
+PaSoRiがあったのでICカードで何かしたいと思って作った
+動作確認はまだしていない
+
+参考：https://qiita.com/75u2u/items/010b602605d087edd1ee
+
+## 環境構築
+```
+docker build ./ -t ic-card-reader
+docker-images
+docker run -it ic-card-reader bash
+```
